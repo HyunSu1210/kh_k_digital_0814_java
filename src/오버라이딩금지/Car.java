@@ -61,8 +61,7 @@ class ElectricCar extends Car {
         return isAutoDrv;
     }
 
-    public void setAutoDrv(boolean autoDrv) {
-        isAutoDrv = autoDrv;
+    public void setAutoDrv(boolean autoDrv) {isAutoDrv = autoDrv;
     }
 
     void infoCar() {
