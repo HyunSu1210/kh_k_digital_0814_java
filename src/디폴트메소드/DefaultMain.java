@@ -19,5 +19,23 @@ public class DefaultMain {
             rc.turnON();
             rc.setVolume(30);
         }
+        RemoteControl ps5 = new RemoteControl() {
+            @Override
+            public void turnON() {
+                System.out.println("플스5 켭니다.");
+            }
+
+            @Override
+            public void turnOFF() {
+                System.out.println("플스5 끕니다.");
+            }
+
+            @Override
+            public void setVolume(int v) {
+
+            }
+        };
+        ps5.turnON();
+        ps5.turnOFF();
     }
 }
